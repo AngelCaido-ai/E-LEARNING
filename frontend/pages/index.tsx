@@ -1,7 +1,10 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+/* eslint-disable import/no-default-export */
 
-export default function Home() {
+import Head from "next/head";
+
+import styles from "../styles/Home.module.css";
+
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -55,7 +58,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
       </footer>
@@ -111,5 +114,7 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
-}
+  );
+};
+
+export default Home;

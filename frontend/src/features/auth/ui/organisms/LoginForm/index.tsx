@@ -2,6 +2,7 @@ import { FastField, Form, Formik } from "formik";
 import Link from "next/link";
 
 import { loginForm } from "features/auth/forms";
+import { PasswordInput, TextInput } from "shared/ui";
 
 export const LoginForm = () => {
   return (
@@ -9,11 +10,17 @@ export const LoginForm = () => {
       {({ isSubmitting }) => (
         <Form>
           <FastField
-            name="login"
+            name="email"
             label="Логин"
             placeholder="Введите ваш логин"
+            component={TextInput}
           />
-          <FastField name="login" label="Пароль" placeholder="Введите пароль" />
+          <FastField
+            name="password"
+            label="Пароль"
+            placeholder="Введите пароль"
+            component={PasswordInput}
+          />
           <button
             type="submit"
             id="login_button"

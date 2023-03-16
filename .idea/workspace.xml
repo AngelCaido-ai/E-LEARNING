@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e91b8055-f5ae-4060-9d02-1642c1c5bd84" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.development.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/production.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/jwt-auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/roles.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/rolse-auth.decorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/blog/blog.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/blog/blog.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/blog/blog.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/blog/dto/create-post.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/blog/post.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/exceptions/validation.exception.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/files/files.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/files/files.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/pipes/validation.pipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/dto/create-role.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/roles.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/roles.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/roles.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/roles.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/roles/user-roles.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/dto/add-role.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/dto/create-user.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/user.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/users.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/users.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/users/users.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/login/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/forms/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/forms/loginForm.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/ui/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/ui/organisms/LoginForm/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/auth/ui/organisms/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/layout/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/layout/ui/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.paths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e91b8055-f5ae-4060-9d02-1642c1c5bd84" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -141,6 +78,7 @@
       <workItem from="1678962121563" duration="1567000" />
       <workItem from="1678963717839" duration="4639000" />
       <workItem from="1678974977771" duration="214000" />
+      <workItem from="1678975413150" duration="234000" />
     </task>
     <servers />
   </component>

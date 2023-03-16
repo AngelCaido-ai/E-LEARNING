@@ -1,14 +1,14 @@
 import {
-  Body,
   HttpException,
   HttpStatus,
   Injectable,
   UnauthorizedException,
 } from '@nestjs/common';
 import { CreateUserDto } from '../users/dto/create-user.dto';
-import { UsersService } from '../users';
+import { UsersService } from '../users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcryptjs';
+import { User } from '../users/users.model';
 
 @Injectable()
 export class AuthService {
@@ -18,15 +18,15 @@ export class AuthService {
   ) {}
 
   async login(userDto: CreateUserDto) {
-    const user = this.validateUser(userDto);
+    const user = await this.validateUser(userDto);
     return this.generateToken(user);
   }
 
-  async register(userDto: CreateUserDto) {
+  async registration(userDto: CreateUserDto) {
     const candidate = await this.userService.getUserByEmail(userDto.email);
     if (candidate) {
       throw new HttpException(
-        'Пользователь с таким e-mail уже существует',
+        'Пользователь с таким email существует',
         HttpStatus.BAD_REQUEST,
       );
     }
@@ -38,7 +38,7 @@ export class AuthService {
     return this.generateToken(user);
   }
 
-  private async generateToken(user) {
+  private async generateToken(user: User) {
     const payload = { email: user.email, id: user.id, roles: user.roles };
     return {
       token: this.jwtService.sign(payload),
@@ -55,7 +55,7 @@ export class AuthService {
       return user;
     }
     throw new UnauthorizedException({
-      message: 'Введены неверные данные о пользователе',
+      message: 'Некорректный емайл или пароль',
     });
   }
 }
